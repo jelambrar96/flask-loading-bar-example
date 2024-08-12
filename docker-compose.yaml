@@ -6,6 +6,5 @@ services:
     ports:
       - "5000:5000"
     volumes:
-      - .:/app
       - ./uploads:/tmp/uploads
       - ./processed:/tmp/processed
