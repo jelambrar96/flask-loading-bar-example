@@ -5,8 +5,8 @@ from threading import Thread
 import time
 
 app = Flask(__name__)
-UPLOAD_FOLDER = 'uploads'
-PROCESSED_FOLDER = 'processed'
+UPLOAD_FOLDER = '/tmp/uploads'
+PROCESSED_FOLDER = '/tmp/processed'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['PROCESSED_FOLDER'] = PROCESSED_FOLDER
 
